@@ -2,33 +2,42 @@
     display: flex;
     flex-direction: column;
     flex: auto;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 .header {
     background-color: #1F2937;
-    max-height: 40%;
     display: flex;
     flex-direction: column;
-    padding: 20px 30px 40px 200px;
-    height: 400px;
+    height:fit-content;
+    padding:20px 200px 150px 200px ;
+
 
 }
 
-img {
-    width: 40%;
-    height: 200px;
+.img1 {
     
+    min-height: 200px;
+    max-height: 300px;
+    
+}
 
+.img2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border:5px solid #3882F6;
+    object-fit:cover;
 }
 
 .top-header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 200px;
 }
 
 .low-header {
     display: flex;
-    padding-top: 60px;
     justify-content: space-between;
 }
 
@@ -45,7 +54,7 @@ a {
 } 
 
 p2 {font-size: 48px;
-    font-weight: 900;
+    font-weight:800;
     color: #F9FAF8;
     padding-right: 50px;
 }
@@ -54,29 +63,79 @@ p {font-size: 18px;
    color: #E5E7EB;
 }
 
-p1 {
-    font-size: 24px;
-    color: #F9FAF8;
+.gif {
+    width: 10%;
+    height: 10%;
 }
+
 .header-links {
     width: 500px;
+    
 }
 .container1 {
     background-color: rgb(243, 245, 245);
     height: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px 40px 0px;
+    margin: 0;
+    align-items: center;
+    flex: 1;
+    
 }
 .container2 {
     background-color: #E5E7EB;
-    height: 300px;
+    height:fit-content;
+    text-align: center;
+    padding:10% 20% 10% 20% ;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 .container3 {
     background-color: rgb(255, 255, 255);
     height: 250px;
 }
-.footer {
+footer {
     background-color: #1F2937;
     height: fit-content;
     color: white;
     padding: 30px;
     text-align: center;
 }
+
+button {
+    border-radius: 7px;
+    top: 550px;;
+    left: 210px;
+    position:absolute;
+    
+}
+.title {
+    font-size: 36px;
+    font-weight:800;
+    
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 10px;
+    
+}
+
+.box {
+   display: flex; 
+   text-align: center;
+   width: 150px;
+   gap: 5em;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 5%;
+   
+}
+
+p4 {font-weight: bold;
+    padding-right: 0%;
+}
+
