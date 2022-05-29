@@ -71,6 +71,8 @@ p {font-size: 18px;
 .header-links {
     width: 500px;
     
+   
+    
 }
 .container1 {
     background-color: rgb(243, 245, 245);
@@ -86,15 +88,17 @@ p {font-size: 18px;
 .container2 {
     background-color: #E5E7EB;
     height:fit-content;
-    text-align: center;
-    padding:10% 20% 10% 20% ;
-    font-size: 36px;
+    padding:10% 20% 10% 15% ;
+    font-size: 26px;
     font-style: italic;
     color: #1F2937;
 }
+
+
 .container3 {
     background-color: rgb(255, 255, 255);
-    height: 250px;
+    height:300px;
+
 }
 footer {
     background-color: #1F2937;
@@ -109,6 +113,9 @@ button {
     top: 550px;;
     left: 210px;
     position:absolute;
+    background-color: #3882F6;
+    padding: 5px 20px 5px 20px;
+    color: antiquewhite;
     
 }
 .title {
@@ -136,6 +143,62 @@ button {
 }
 
 p4 {font-weight: bold;
-    padding-right: 0%;
+    position: absolute;
+    padding-left: 490px;
+    padding-top: 20px;
+    color: black;
 }
 
+a.two {color: black;
+       font-size: 26px;       
+ }
+
+ a.two:hover{color: red;}
+
+
+.myButton {
+    
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+    width: 60px;
+    height: 20px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.box-two { 
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #3882F6;
+    align-items: flex-end;
+    
+    margin: 70px;
+    padding: 50px 100px 50px 100px;
+} 
+.left {
+    color: rgb(255, 255, 255);
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
